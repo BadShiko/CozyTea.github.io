@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0px;
+    display: block;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+    opacity: 0.9;
+}
+.breadcrumb {
+    float: right;
+}
+
+.breadcrumb > li {
+    display: inline;
+}
+
+a {
+    color: seashell;
+}
+
+li {
+    padding: 10px;
+} 
+
+#section_1 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1r57x5p*_ga*OTAzMDI5NzQ2Mi4xNjc2ODExMjQx*_ga_3LRZM6TM9L*MTY4MTM5OTkzMC40NS4xLjE2ODE0MDEzMjIuMzYuMC4w');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+h2,h4 {
+    color: seashell;
+    opacity: 0.9;
+}
+
+#section_2 {
+    margin: 100px auto ;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px; 
+}
+
+.picsone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+
+.picstwo {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    justify-content: space-between;
+}
+
+#section_2 img {
+    height: 200px;
+    width: 300px;
+}
+
+.picsone h4,.picstwo h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#section_3 {
+    width: 1200px;
+    height: 570px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1hnbp4t*_ga*OTAzMDI5NzQ2Mi4xNjc2ODExMjQx*_ga_3LRZM6TM9L*MTY4MTU1MjU5Mi40OC4xLjE2ODE1NTI1OTYuNTYuMC4w");
+}
+
+#section_3 h2 {
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 0%;   
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.box h4 {
+    margin: auto;
+}
+
+.box h3 {
+    margin: auto;
+}
+
+footer {
+    height: 200px;
+    width: auto;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.xx {
+   text-align: left;
+   padding: 20px;
+}
